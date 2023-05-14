@@ -1,2 +1,2 @@
 # Andercore.tech
-MY_WEBSITE
+MY_WEBSITE = "https://andercore.tech"
