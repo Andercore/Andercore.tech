@@ -75,7 +75,3 @@ button:hover span {
   transform: rotate(45deg);
   transition: transform 0.2s ease-out, opacity 0.2s ease-out;
 }
-
-.active {
-  color: red;
-}

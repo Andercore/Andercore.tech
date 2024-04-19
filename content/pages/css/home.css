@@ -44,3 +44,9 @@ nav {
   .active {
     color: red;
 }
+
+  nav ul li.home {
+    margin-left: 0;
+    justify-content: left;
+    align-items: left;
+}
