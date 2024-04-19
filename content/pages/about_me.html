@@ -5,17 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>andercore.tech</title>
-    <link rel="icon" type="image/ico" href="images/logo.ico">
-    <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="icon" type="image/ico" href="images/logo.ico" alt="Logotipo">
+    <link rel="stylesheet" href="css/about_me.css" type="text/css">
 </head>
+<script>
+  var navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+          navLinks.forEach(function(link) {
+              link.classList.remove('active');
+          });
+          this.classList.add('active');
+      });
+  });
+</script>
 <body>
     <header>
-        <h1 align="center">Controle de Acesso ID</h1>
         <nav>
           <ul>
-            <li><a href="https://andercore.tech/content/home.html">HOME</a></li>
+            <li .active><a href="home.html">HOME</a></li>
             <li><a href="https://andercore.github.io/Subway-Surfers/">Subway Surfers</a></li>
-            <li><a href="https://andercore.tech/content/pages/pap.html">PAP</a></li>
+            <li><a href="pap.html">PAP</a></li>
           </ul>
         </nav>
       </header>
